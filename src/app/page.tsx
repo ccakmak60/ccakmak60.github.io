@@ -29,7 +29,7 @@ export default function Home() {
               <li key={p.name} className="animate-fade-up" style={{ animationDelay: `${250 + i * 30}ms` }}>
                 <a href={p.url} target="_blank" rel="noopener noreferrer" className="project-list-item">
                   <span className="project-name">{p.name}</span>
-                  <span className="project-type">{p.type}</span>
+                  <span className="project-type mono">{p.type}</span>
                 </a>
               </li>
             ))}
