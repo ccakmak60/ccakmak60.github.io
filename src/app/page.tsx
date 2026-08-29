@@ -25,14 +25,30 @@ export default function Home() {
         <section>
           <h2 className="section-heading animate-fade-up" style={{ animationDelay: "200ms" }}>Projects</h2>
           <ul>
-            {projects.map((p, i) => (
-              <li key={p.name} className="animate-fade-up" style={{ animationDelay: `${250 + i * 30}ms` }}>
-                <a href={p.url} target="_blank" rel="noopener noreferrer" className="project-list-item">
-                  <span className="project-name">{p.name}</span>
+            {projects.map((p, i) => {
+              const body = (
+                <>
+                  <div>
+                    <span className="project-name">{p.name}</span>
+                    {p.description ? (
+                      <span className="project-desc">{p.description}</span>
+                    ) : null}
+                  </div>
                   <span className="project-type mono">{p.type}</span>
-                </a>
-              </li>
-            ))}
+                </>
+              );
+              return (
+                <li key={p.name} className="animate-fade-up" style={{ animationDelay: `${250 + i * 30}ms` }}>
+                  {p.url ? (
+                    <a href={p.url} target="_blank" rel="noopener noreferrer" className="project-list-item">
+                      {body}
+                    </a>
+                  ) : (
+                    <div className="project-list-item">{body}</div>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         </section>
 

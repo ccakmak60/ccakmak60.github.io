@@ -1,0 +1,86 @@
+[
+  {
+    "name": "gemini-teleprompter",
+    "type": "Web App",
+    "url": "https://gemini-teleprompter.vercel.app",
+    "description": "Real-time teleprompter — listens to a conversation and drafts your next line with the Gemini Live API."
+  },
+  {
+    "name": "herdr-vault-graph",
+    "type": "Plugin",
+    "url": "https://github.com/ccakmak60/herdr-vault-graph",
+    "description": "Turns a flat markdown vault into a routing structure an agent can walk — router, generated index, linted wikilink graph."
+  },
+  {
+    "name": "many-worlds-ai",
+    "type": "Company Work",
+    "description": "AI character engine for photorealistic NPCs — voice, video, and emotion in real time."
+  },
+  {
+    "name": "serviceonline",
+    "type": "Company Work",
+    "description": "Service booking and registration platform for serviceonline.co.za — TanStack Start on AWS Amplify."
+  },
+  {
+    "name": "playdoh",
+    "type": "Product",
+    "description": "Field-sales AI assistant — Expo mobile app, Next.js web client, and a Python sales-agent service in one Turborepo."
+  },
+  {
+    "name": "loaf-of-love",
+    "type": "Web App",
+    "description": "Buy a spot on the loaf, feed a family — 3D charity storefront built with react-three-fiber."
+  },
+  {
+    "name": "rugbykit",
+    "url": "https://rugbykit.vercel.app",
+    "type": "Web App",
+    "description": "RugbyKit is a player simulation prototype."
+  },
+  {
+    "name": "agentforge",
+    "url": "https://github.com/ccakmak60/agentforge",
+    "type": "Library",
+    "description": "AgentForge is a multi-agent orchestration project scaffolded from the design document in docs/superpowers/specs/2026-04-16-agentforge-design.md."
+  },
+  {
+    "name": "chatforge",
+    "url": "https://github.com/ccakmak60/chatforge",
+    "type": "Library",
+    "description": "A self-hostable, private, configurable domain chatbot platform."
+  },
+  {
+    "name": "marketingagent",
+    "url": "https://github.com/ccakmak60/marketingagent",
+    "type": "Library",
+    "description": "Autonomous AI agents that optimize your advertising campaigns 24/7."
+  },
+  {
+    "name": "docs",
+    "url": "https://github.com/ccakmak60/docs",
+    "type": "Docs",
+    "description": "Use the starter kit to get your docs deployed and ready to customize."
+  },
+  {
+    "name": "component-registry",
+    "url": "https://github.com/ccakmak60/component-registry",
+    "type": "Library",
+    "description": "Registry Starter is a free, open-source template built with Next.js and Shadcn/ui Registry to accelerate your AI-Native Design System."
+  },
+  {
+    "name": "skill-composition-guide",
+    "url": "https://github.com/ccakmak60/skill-composition-guide",
+    "type": "Guide"
+  },
+  {
+    "name": "Marketing-Designskills",
+    "url": "https://github.com/ccakmak60/Marketing-Designskills",
+    "type": "Resource",
+    "description": "A collection of AI agent skills focused on marketing tasks."
+  },
+  {
+    "name": "dart",
+    "url": "https://github.com/ccakmak60/dart",
+    "type": "Library"
+  }
+]

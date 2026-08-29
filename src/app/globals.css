@@ -100,6 +100,8 @@ a.project-list-item:focus-visible .project-name { color: var(--accent); }
   color: var(--text-muted);
   flex-shrink: 0;
 }
+.project-list-item > div { display: flex; flex-direction: column; gap: 0.15rem; }
+.project-desc { font-size: var(--text-caption); color: var(--text-muted); }
 .footer-text { font-size: var(--text-caption); color: var(--text-muted); }
 
 .header-actions { display: flex; align-items: center; gap: 0.25rem; }

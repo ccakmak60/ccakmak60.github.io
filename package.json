@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "projects:check": "node scripts/check-projects.mjs"
   },
   "dependencies": {
     "geist": "^1.7.2",
